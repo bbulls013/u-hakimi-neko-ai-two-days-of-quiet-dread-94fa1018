@@ -10,6 +10,8 @@ bytes. Standard library only; no input, no randomness, no network.
 
 import os
 
+# The entry is 109 characters: comfortably inside the competition's
+# 140-character cap, so no truncation or wrapping is ever needed.
 ENTRY = (
     "Approved. All green, no obvious flaws, and I am signing off "
     "the way you sign a lease you have not fully read."
